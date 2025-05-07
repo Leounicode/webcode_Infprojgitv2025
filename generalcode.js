@@ -1,9 +1,12 @@
 $(document).ready(function main(){
-    $(".stylechange").click(function change(event){
-        let background = '"'+event.target.data-stylemode-background+'"';
-        let color = '"'+event.target.data-stylemode-color+'"'
-        $("body").css("background-color",background);
-        $("body").css("color", color );
+    $(".stylechange").click(function change(){
+        let classtoadd = $(this).attr("data-stylemode");
+        let objectaffected = $(this).attr("data-object");
+        console.log(classtoadd)
+        $(objectaffected).attr('class',classtoadd);
+        //https://stackoverflow.com/questions/1424981/how-can-i-remove-all-css-classes-using-jquery-javascript
+       //https://www.w3schools.com/jquery/jquery_css_classes.asp
+        
     });
 
 });

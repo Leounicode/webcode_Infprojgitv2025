@@ -1,4 +1,24 @@
-body{
+/*body{
     background-color: white;
     color:black;
+}*/
+.wikistyleheading{
+    text-align: center;
+}
+.wikistylemain{
+    text-align: center;
+    width: 60%;
+}
+.wikistylelinkbar{
+    float:left; 
+    width: 20%;
+
+}
+.wikistyleoptionsbar{
+    float: right;  
+    width: 20%; 
+}
+.styledark{
+    color: white;
+    background-color: black;
 }
