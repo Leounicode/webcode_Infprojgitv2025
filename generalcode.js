@@ -1,4 +1,5 @@
 $(document).ready(function main(){
+
     $(".stylechange").click(function change(){
         let classtoadd = $(this).attr("data-attrvalue");
         let objectaffected = $(this).attr("data-object");
