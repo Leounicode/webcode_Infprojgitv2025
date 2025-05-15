@@ -3,7 +3,9 @@
 <head>
     <script type="text/javascript" src=".\Packages\jquery-3.7.1.min.js"></script>
     <script type="text/javascript" src=".\Packages\js.cookie.min.js"></script>
+    <script type="text/javascript"src=".\Packages\jquery.includeHTML.min.js"></script>
     <script type="text/javascript" src=".\generalcode.js"></script>
+
     <link rel="stylesheet" href=".\cssstyle.css"></link>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -19,13 +21,8 @@
         </a>
 
     </div>
-    <div class=" Wikigeneral" id="wikistyleoptionsbar">
-        
-        <button class="stylechange"  data-attrvalue="styledark" data-object=".wikistylesite" data-attr="id" ><img class="selectorimg" id="styledarkbutton" style="height: 20px; width: 20px;" src=" .\recources\selctor_field.png"></button><p>darkmode</p>
-        <br>
-        <button class="stylechange"  data-attrvalue="stylelight" data-object=".wikistylesite" data-attr="id"><img  class="selectorimg" id="stylelightbutton" style="height: 20px; width: 20px;" src=".\recources\selector_field-select.png"></button><p>lightmode</p>
-        
-    </div>
+    <div id="Stylechangeloadpos"></div>
+
     <div class="Wikigeneral" id="wikistylemain">
         <h2 id="topicone">
             topic one

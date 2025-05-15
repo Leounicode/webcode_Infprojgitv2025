@@ -1,4 +1,8 @@
+
 $(document).ready(function main(){
+    $("#Stylechangeloadpos").loadHTML("./stylechangetemplate.html")
+
+    
     let lastbuttonused;
     let stdstyle
 
@@ -30,5 +34,4 @@ if(stdstyle== undefined){
        lastbuttonused = buttonused;
        Cookies.set("stylemode",classtoadd)
     });
-
 });
