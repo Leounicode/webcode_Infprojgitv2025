@@ -33,3 +33,6 @@ margin: 0%;
     border: hidden;
     background-color: rgba(0, 0, 0, 0);
 }
+.inline{
+    display: inline;
+}

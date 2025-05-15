@@ -1,13 +1,23 @@
+
 $(document).ready(function main(){
-try{
-    let stdstyle = cookie.get("stylemode");
-    let lastbuttonused = "#"+stdstyle+"button"
-    let 
+    $("#Stylechangeloadpos").loadHTML("./stylechangetemplate.html")
+
+    
+    let lastbuttonused;
+    let stdstyle
+
+    stdstyle = Cookies.get("stylemode");
+    lastbuttonused = "#"+stdstyle+"button" 
+
+
+if(stdstyle== undefined){
+    lastbuttonused= "#stylelightbutton" ;
+    stdstyle =  "stylelight";
+    console.log("no cokie")
 }
-catch(err){
-    let lastbuttonused= "#stylelightbutton" ;
-}
-    $(".wikisite").attr("id",stdstyle);
+    $(".wikistylesite").attr("id",stdstyle);
+    $(".selectorimg").attr("src","./recources/selctor_field.png")
+    $(lastbuttonused).attr("src","./recources/selector_field-select.png")
 
 
     $(".stylechange").click(function change(){
@@ -22,7 +32,6 @@ catch(err){
        $(buttonused).attr("src", "./recources/selector_field-select.png")
        console.log("pressed")
        lastbuttonused = buttonused;
-       cookie.set("stylemode",classtoadd)
+       Cookies.set("stylemode",classtoadd)
     });
-
 });
