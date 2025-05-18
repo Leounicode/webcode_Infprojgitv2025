@@ -1,6 +1,5 @@
 
 $(document).ready(function main(){
-    $("#Stylechangeloadpos").loadHTML("./stylechangetemplate.html")
 
     
     let lastbuttonused;
