@@ -1,33 +1,48 @@
 #stylelight{
     color: black;
     background-color: white;
-    
+    a:link{
+        color:blue;
+    }
+    a:visited{
+        color:blue;
+    }
 }
 .wikistyleheading{
     text-align: center;
 }
+
 #wikistylemain{
     text-align: center;
     width: 60%;
-    float: right;
+    float:left;
+    table-layout: auto;
 }
 .Wikigeneral{
  border: 1px solid grey;
 margin: 0%;
-    
+table-layout: auto;
 }
 #wikistylelinkbar{
-    float:left; 
     width: 19.674%;
+    float:left;
+    table-layout: auto;
 }
 #wikistyleoptionsbar{
-    float: right;  
     width: 20%; 
+    float: left;
+    table-layout: auto;
 }
 #styledark{
     color: white;
     background-color: black;
     border-color: beige;
+    a:link{
+        color:lightblue;
+    }
+    a:visited{
+        color:lightblue;
+    }
 }
 .stylechange{
     border: hidden;
@@ -35,4 +50,12 @@ margin: 0%;
 }
 .inline{
     display: inline;
+}
+footer {
+    width: 100%;
+    border-style:hidden;
+    border-color: black;
+    float: inline-end;
+
+
 }
