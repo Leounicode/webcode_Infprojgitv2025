@@ -14,17 +14,224 @@
     <div class="wikistyleheading">
     <h1>Busse</h1>
     </div>
+
     <div class="Wikigeneral" id="wikistylelinkbar">
+        <h4>Jump to:</h4>
         <a href="#topicone">
-            link one
+            1 Zusammenfassung
+        </a>
+        <a href="#topictwo">
+            2 Datenbus
+        </a>
+        <a href="#topicthree">
+            3 Adressbus
+        </a>
+        <a href="#topicthreedotone">
+            3.1 Adressmultipelexen
+        </a>
+        <a href="#topicfour">
+            4 Steuerbus
+        </a>
+        <a href="#topicfive">
+            5 Implementation
+        </a>
+        <a href="#topicsixdotone">
+            6.1  PATA
+        </a>
+        <a href="#topicsixdottwo">
+            6.2  PCIE-express
         </a>
     </div>
 
+
     <div class="Wikigeneral" id="wikistylemain">
-        <h2 id="topicone">
-            topic one
-        </h2>
+        <div style="width: 100%;"><!--element für fotos-->
+            <div class="pictureinsert" style="float: left; height: 50%; width: 30%;">
+                <img style="height: 60%; width: 100%;" src="./recources/motherboard.jpg" alt="text if through some bug picture is not available">
+                <p> picture describing text</p>
+            </div>
+            <div style="float: left;width:50%;"id="topicone">
+                <p>Ein Bus ist ein System, welches Daten zwischen Computergeräten überträgt. Busse beinhalten sowohl Hardware als auch Software, wie Kommunikationsprotokolle.
+                Busse erlauben es verschiedenen Geräten über den gleichen Pfad, wie Kabel oder Mikrochips, zu kommunizieren, Busse verwenden Datenprotokolle um Übertragungsfehler zu vermeiden und zu steuern welches Gerät zu einem gegebenen 
+                Zeitpunkt Daten übertragen kann.</p>
+                <p>
+                
+                    Man unterscheidet zwischen verschiedenen Arten von Bussen, dazu zählen unter anderem: Datenbusse, welche Daten zwischen Computergeräten und dem Speicher 
+                </p>
+
+            </div>
+        </div>
+        <div style="float:left  ; width: 100%;"  >
+
+            <p>
+                überträgt, 
+                Adressbusse, die Speicheradressen an verschiedene Computergeräte leiten, 
+                Steuerbusse, die die Befehle an die Computergeräte leiten, und Universal Serial Bus (USB), welcher externe Geräte verbindet.
+                
+                Es existieren parallele sowie seriale Busse, welche komplexe Kodierungsmethoden verwenden um Geschwindigkeit und Effizienz zu erhöhen.
+            </p>
+
+ 
+
+        </div>
+        
+
+        <div style="float:left  ; width: 100%">
+            <hr>
+        </div>    
+        <div style="float:left  ; width: 100%;"id="topictwo"  >
+            <h2 style="text-align: center;">
+                   2 Datenbus
+            </h2>
+            <p>
+                Der Datenbus dient der Übertragung von Daten zwischen Digital-, Computer-, und Speichergeräten.
+Anders als bei konventionellen Verbindungen bei denen zwei Geräte mit einem Anschluss verbunden werden, kann ein Datenbus mehrere Peripheriegeräte über die gleiche Leitung verbinden.
+Im Gegensatz zum Steuer- und Adressbus ist der Datenbus bidirektional, das bedeutet, er hat die Fähigkeit Daten in beide Richtungen zu übertragen.
+Die Ausdrücke 4-Bit, 8-Bit, 16-Bit, 32-Bit und 64-Bit geben die Breite des Datenbuses an, viele Grafikkarten verfügen über noch höhere Busbreiten, um den Verarbeitungsprozess zu beschleunigen.
+            </p>
+
+
+        </div>
+        <div style="float:left  ; width: 100%">
+            <hr>
+        </div>    
+        <div style="float:left  ; width: 100%;"id="topicthree"  >
+            <h2 style="text-align: center;">
+                  3  Adressbus
+            </h2>
+            <p>
+                Der Adressbus dient zur Übertragung von Speicher- und Peripherieadressen zwischen dem Prozessor und allen Speichergeräten.
+                Wenn der Prozessor vom Speicher lesen muss spezifiziert er die Speicheradresse im Adressbus, der Speicherwert wird dann über den Datenbus geleitet.
+                Die Breite des Adressbuses bestimmt die Menge an Speicher die ein System erreichen kann, ein System mit 2^32 Bit breitem Bus kann somit 4.294.967.296 Speicheradressen ansteuern.
+            </p>
+
+ 
+
+        </div>
+        <div style="float:left  ; width: 100%";id="topicthreedotone">
+            <h3>
+                3.1 Adressmultipelexen
+            </h3>
+            <p>
+                Der Adressbus dient zur Übertragung von Speicher- und Peripherieadressen zwischen dem Prozessor und allen Speichergeräten.
+                Wenn der Prozessor vom Speicher lesen muss spezifiziert er die Speicheradresse im Adressbus, der Speicherwert wird dann über den Datenbus geleitet.
+                Die Breite des Adressbuses bestimmt die Menge an Speicher die ein System erreichen kann, ein System mit 2^32 Bit breitem Bus kann somit 4.294.967.296 Speicheradressen ansteuern.
+            </p>
+
+        </div>    
+        <div style="float:left  ; width: 100%">
+            <hr>
+        </div>    
+        <div style="float:left  ; width: 100%;"id="topicfour"  >
+            <h2 style="text-align: center;">
+                   4 Steuerbus
+            </h2>
+        </div>
+        <div style="width: 100%;"><!--element für fotos-->
+            <div class="pictureinsert" style="float: left; height: 20%; width: 30%;">
+                <img style="height: 30%; width: 100%;" src="./recources/Bus.gif" alt="text if through some bug picture is not available">
+                <p> picture describing text</p>
+            </div>
+            <div style="float: left;width:50%;"id="topicone">
+                <p>
+                    Der Steuerbus überträgt gewisse Signale an die einzelnen Komponenten eines Computers um diesen Instruktion zuzuteilen, er beinhaltet zudem die Interrupt-Leitungen über den Peripherie-Geräte dem Prozessor 
+        Unterbrechungsanforderungen zugeteilt werden können.
+        Der Steuerbus leitet die Befehle um aus dem RAM zu lesen und zu schreiben, Eingabe und Ausgabe von Peripherie-Geräten sowie die Interrupt-Signale für die CPU.
+        </p>
+        
+
+            </div>
+        </div>
+           
+
+      
+        <div style="float:left  ; width: 100%">
+            <hr>
+        </div> 
+        <div style="float:left  ; width: 100%;"id="topicfive"  >
+            <h2 style="text-align: center;">
+                   5 Implementation
+            </h2>
+            <h3>
+                5.1 Bus Multiplexen
+         </h3>
+       
+            <p>
+                Viele ältere Computersysteme verwenden in ihren Bussen für jedes Bit ein einzelnes Kabel, diese Methode ist sicher und unkompliziert, jedoch sind Busse mit größeren Breiten demnach physisch ebenfalls sehr groß,
+                daher verwenden moderne Computer ein bidirektionales System aus Datenbussen um die Signale aller Busse durch einen einzelnen kleineren Bus zu leiten.
+                Ein System-Timer stellt sicher, das nur ein Gerät auf einmal Signale sendet und nur die passenden Geräte diese Signale verwenden.
+            </p>
+
+        </div>
+        <div style="float:left  ; width: 100%">
+            <hr>
+        </div> 
+        <div style="float:left  ; width: 100%;"id="topicsix"  >
+            <h2 style="text-align: center;">
+                   6 Beispiele
+            </h2>
+           
+
+        </div>
+        <div style="float:left  ; width: 100%";id="topicsixdotone">
+            <h3>
+                6.1 PATA
+            </h3>
+        </div>
+        <div style="width: 100%;"><!--element für fotos-->
+            <div class="pictureinsert" style="float: left; height: 20%; width: 30%;">
+                <img style="height: 30%; width: 100%;" src="./recources/pata.jpg" alt="text if through some bug picture is not available">
+                <p> picture describing text</p>
+            </div>
+            <div style="float: left;width:50%;"id="topicone">
+                <p> Parallel Advanced Technology Attachment(PATA) ist ein Computer-Interface für die Datenübertragung zwischen Motherboard und Festplatten bzw. CD und DVD Laufwerken.
+                    PATA Kabel sind flach mit 40-pin Konnektoren, ein Ende des Kabels wird an dem Motherboard angeschlossen und das andere Ende mit einem Speichergerät.
+                    PATA Kabel übertragen zwischen 33 und 100 MB/s.
+                    Nach der Einführung des SATA (Serial Advanced Technology Attachment) Kabel Standards wurde PATA über Zeit mit diesem ersetzt.            
+                </p>
+
+            </div>
+        </div>
+
+        <div style="float:left  ; width: 100%";id="topicsixdottwo">
+            <h3>
+                6.2 PCI Express
+            </h3>
+        </div>
+        <div style="width: 100%;"><!--element für fotos-->
+            <div class="pictureinsert" style="float: right ; height: 20%; width: 30%;">
+                <img style="height: 30%; width: 100%;" src="./recources/PCIE.jpeg" alt="text if through some bug picture is not available">
+                <p> picture describing text</p>
+            </div>
+            <div style="float: left;width:50%;"id="topicone">
+                <p>
+                    Peripheral Component Interconnect Express (PCIe) ist ein Hochgeschwindigkeitsstandard für die Verbindung von Hardware Geräten innerhalb eines Computers.
+    PCIe Busse übertragen Daten über sogenannte "Lanes", das sind Paare von Kabeln die Daten senden und empfangen.
+    Die Größe eines PCIe Busses variiert zwischen 1 und 16 Lanes, wenn mehrere Lanes verfügbar sind werden Daten auf diesen aufgeteilt, so kann PCIe große Höchstgeschwindigkeiten erreichen.
+    PCIe wird meistens zur Verbindung von Grafikkarten, Soundkarten, Netzwerkkarten, Ethernet-Adaptern oder Speichergeräten wie SSDs und HDDs mit dem Motherboard verwendet. 
+                </p>
+
+            </div>
+        </div>
+       
+
+        <div style="float:left  ; width: 100%">
+            <hr> 
+        </div>    
+        <div style="width: 100%;"><!--element für fotos-->
+            <div class="pictureinsert" style="float: left; ">
+                <img src="src files" alt="text if through some bug picture is not available">
+                <p> picture describing text</p>
+            </div>
+            <div style="float: left;width:70%;">
+                text beside picture
+
+            </div>
+        </div>      
+
+                    
     </div>
+
 
     
     <div class=" Wikigeneral" id="wikistyleoptionsbar">
@@ -33,6 +240,6 @@
         <br>
         <button class="stylechange inline"  data-attrvalue="stylelight" data-object=".wikistylesite" data-attr="id", data-inverse="styledark"><img  class="selectorimg" id="stylelightbutton" style="height: 20px; width: 20px;" src=".\recources\selector_field-select.png"></button><p class="inline">lightmode</p>
     </div>
-<footer > <a href="./impressum.html">impressum</a></footer>    
+<footer  class="visfooter"> <a href="./quellen.html">quellen</a></footer>    
 </body>
 </html>

@@ -1,0 +1,10 @@
+Der Adressbus dient zur Übertragung von Speicher- und Peripherieadressen zwischen dem Prozessor und allen Speichergeräten.
+Wenn der Prozessor vom Speicher lesen muss spezifiziert er die Speicheradresse im Adressbus, der Speicherwert wird dann über den Datenbus geleitet.
+Die Breite des Adressbuses bestimmt die Menge an Speicher die ein System erreichen kann, ein System mit 2^32 Bit breitem Bus kann somit 4.294.967.296 Speicheradressen ansteuern.
+
+
+3.1 Adress Multiplexen
+
+Ältere Computersysteme verwendeten ein einzelnes Kabel für jeden Bit des Adressbuses, als Busse jedoch größer wurden benötigten diese somit mehr Material.
+Darum wurde das Multiplexen von Adressen weit verbreitet, in einem gemultiplextem Adressbus werden Adressen zerteilt und dann in mehreren Teilen über mehrere Bus-Zyklen übertragen.
+Zum Beispiel kann eine 32 Bit Adresse über einen 16 Bit Bus übertragen werden indem sie geteilt wird, dann die erste Hälfte gefolgt von der zweiten Hälfte übertragen wird.

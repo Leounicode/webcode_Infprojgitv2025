@@ -1,0 +1,9 @@
+Ein Bus ist ein System, welches Daten zwischen Computergeräten überträgt. Busse beinhalten sowohl Hardware als auch Software, wie Kommunikationsprotokolle.
+Busse erlauben es verschiedenen Geräten über den gleichen Pfad, wie Kabel oder Mikrochips, zu kommunizieren, Busse verwenden Datenprotokolle um Übertragungsfehler zu vermeiden und zu steuern welches Gerät zu einem gegebenen 
+Zeitpunkt Daten übertragen kann.
+
+Man unterscheidet zwischen verschiedenen Arten von Bussen, dazu zählen unter anderem: Datenbusse, welche Daten zwischen Computergeräten und dem Speicher überträgt, 
+Adressbusse, die Speicheradressen an verschiedene Computergeräte leiten, 
+Steuerbusse, die die Befehle an die Computergeräte leiten, und Universal Serial Bus (USB), welcher externe Geräte verbindet.
+
+Es existieren parallele sowie seriale Busse, welche komplexe Kodierungsmethoden verwenden um Geschwindigkeit und Effizienz zu erhöhen.

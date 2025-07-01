@@ -1,0 +1,5 @@
+5.1 Bus Multiplexen
+
+Viele ältere Computersysteme verwenden in ihren Bussen für jedes Bit ein einzelnes Kabel, diese Methode ist sicher und unkompliziert, jedoch sind Busse mit größeren Breiten demnach physisch ebenfalls sehr groß,
+daher verwenden moderne Computer ein bidirektionales System aus Datenbussen um die Signale aller Busse durch einen einzelnen kleineren Bus zu leiten.
+Ein System-Timer stellt sicher, das nur ein Gerät auf einmal Signale sendet und nur die passenden Geräte diese Signale verwenden.

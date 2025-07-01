@@ -16,8 +16,7 @@ if(stdstyle == undefined && startinverse== undefined){
     $(".wikistylesite").attr("id",stdstyle);
     $(".selectorimg").attr("src","./recources/selctor_field.png")
     $(lastbuttonused).attr("src","./recources/selector_field-select.png")
-    $("footer").attr("id", startinverse)
-    $(".invisfooter").attr("id",stdstyle);
+    $(".visfooter").attr("id", startinverse)
 
 
     $(".stylechange").click(function change(){
@@ -26,7 +25,7 @@ if(stdstyle == undefined && startinverse== undefined){
         let attrbute = $(this).attr("data-attr");
         let attrinverse = $(this).attr("data-inverse")
         let buttonused = "#"+classtoadd+"button"
-        $("footer").attr(attrbute,attrinverse)
+        $(".visfooter").attr(attrbute,attrinverse)
         $(objectaffected).attr(attrbute,classtoadd);
         //https://stackoverflow.com/questions/1424981/how-can-i-remove-all-css-classes-using-jquery-javascript
        //https://www.w3schools.com/jquery/jquery_css_classes.asp
@@ -36,10 +35,8 @@ if(stdstyle == undefined && startinverse== undefined){
        lastbuttonused = buttonused;
        Cookies.set("stylemode",classtoadd)
        Cookies.set("styleinvers",attrinverse)
-       $(".invisfooter").attr(attrbute, classtoadd)
     });
     $("#hrefmain").click(function jumpback() {
         window.location = "./index.html"
-        
     })
 });

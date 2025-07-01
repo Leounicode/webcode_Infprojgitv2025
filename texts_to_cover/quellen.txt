@@ -1,0 +1,30 @@
+https://en.wikipedia.org/wiki/Bus_(computing)
+
+https://www.elektronik-kompendium.de/sites/com/0309221.htm
+
+adress bus
+
+https://www.amigawiki.org/doku.php?id=de:signals:adress_bus
+
+datenbus
+
+https://de.wikipedia.org/wiki/Bus_(Datenverarbeitung)#Datenbus
+
+adress multiplexen
+
+
+
+bus multiplexen
+
+https://www.tinaja.com/ebooks/tvtcb.pdf  (p.82)
+
+PATA-Kabel
+
+https://www.lifewire.com/parallel-ata-pata-2625957
+
+PCI 
+
+https://en.wikipedia.org/wiki/PCI_Express
+
+
+bilder

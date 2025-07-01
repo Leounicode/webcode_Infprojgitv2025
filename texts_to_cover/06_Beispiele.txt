@@ -1,0 +1,13 @@
+6.1 PATA 
+
+Parallel Advanced Technology Attachment(PATA) ist ein Computer-Interface für die Datenübertragung zwischen Motherboard und Festplatten bzw. CD und DVD Laufwerken.
+PATA Kabel sind flach mit 40-pin Konnektoren, ein Ende des Kabels wird an dem Motherboard angeschlossen und das andere Ende mit einem Speichergerät.
+PATA Kabel übertragen zwischen 33 und 100 MB/s.
+Nach der Einführung des SATA (Serial Advanced Technology Attachment) Kabel Standards wurde PATA über Zeit mit diesem ersetzt.
+
+6.2 PCI Express
+
+Peripheral Component Interconnect Express (PCIe) ist ein Hochgeschwindigkeitsstandard für die Verbindung von Hardware Geräten innerhalb eines Computers.
+PCIe Busse übertragen Daten über sogenannte "Lanes", das sind Paare von Kabeln die Daten senden und empfangen.
+Die Größe eines PCIe Busses variiert zwischen 1 und 16 Lanes, wenn mehrere Lanes verfügbar sind werden Daten auf diesen aufgeteilt, so kann PCIe große Höchstgeschwindigkeiten erreichen.
+PCIe wird meistens zur Verbindung von Grafikkarten, Soundkarten, Netzwerkkarten, Ethernet-Adaptern oder Speichergeräten wie SSDs und HDDs mit dem Motherboard verwendet. 

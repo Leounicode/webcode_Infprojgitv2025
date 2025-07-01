@@ -1,0 +1,4 @@
+Der Steuerbus überträgt gewisse Signale an die einzelnen Komponenten eines Computers um diesen Instruktion zuzuteilen, er beinhaltet zudem die Interrupt-Leitungen über den Peripherie-Geräte dem Prozessor 
+Unterbrechungsanforderungen zugeteilt werden können.
+Der Steuerbus leitet die Befehle um aus dem RAM zu lesen und zu schreiben, Eingabe und Ausgabe von Peripherie-Geräten sowie die Interrupt-Signale für die CPU.
+ 
